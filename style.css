@@ -1,0 +1,19 @@
+.container {
+    border: 1px solid red;
+}
+
+span {
+    font-weight: bold;
+}
+
+.col {
+    border: 1px solid green;
+}
+
+.col-6 {
+    border: 1px solid green;
+}
+
+ul {
+    list-style: none;
+}
