@@ -3,55 +3,55 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
     <title>CV Hugo CHABERT</title>
  </head>
  <body>
 
     <header>
         <!-- Title & Picture -->
-        <div class="container">
-            <img src="/var/www/html/cv_hugo_chabert/hc_pict.jpg" alt="photoHugoChabert"/>
+        <div class="d-flex justify-content-center" id="titPic">
+            <div class="flex-item" id="titles">
+                <h1>Développeur Full-Stack</h1>
+                <h2>web & web-mobile</h2>
+            </div>
         </div>
     </header>
 
     <main>
-        <div class="container" id="infBox">
-            <h4>Programmation</h4>
-            <h5>Languages</h5>
-            <div class="col">
-                <span class="prog">Javascript : </span><br>
-                <span class="prog">PHP : </span><br>
-                <span class="prog">Python : </span><br>
-            </div>
-            <h5>Framework</h5>
-            <div class="col">
-                <span class="fram">Vue.js : </span><br>
-                <span class="fram">Laravel : </span><br>
-                <span class="fram">Express : </span><br>
+        <!-- Programmation -->
+        <h4>Programmation</h4>
+        <div class="d-flex flex-column" id="lang&fram">
+            <h5>Languages et frameworks étudiés</h5>
+            <div class="langAndFram">
+                <span class="prog">Javascript : </span>
+                <span class="fram">Vue.js,</span>
+                <span class="fram">Express</span><br>
+                <span class="prog">PHP : </span>
+                <span class="fram">Laravel</span><br>
             </div>
         </div>
-        <div class="container" id="langAndCert">
-            <div class="d-flex">
-                <div class="col-6 languages">
-                    <h4>Langues</h4>
-                    <span class="lang">Français : </span><br>
-                    <span class="lang">Anglais : </span><br>
-                    <span class="lang">Espagnol : </span>
-                </div>
-                <div class="col-6 certifications">
-                    <h4>Certifications</h4>
-                    <span class="cert">CQPM Coordinateur de systèmes QSE</span><br>
-                    <span class="cert">Auditeur interne</span>
-                </div>
+        <div class="d-flex">
+            <!-- Languages -->
+            <div class="col-6 languages">
+                <h4>Langues</h4>
+                <span class="lang">Français : </span><br>
+                <span class="lang">Anglais : </span><br>
+                <span class="lang">Espagnol : </span>
+            </div>
+            <!-- Certifications -->
+            <div class="col-6 certifications">
+                <h4>Certifications</h4>
+                <span class="cert">CQPM Coordinateur de systèmes QSE</span><br>
+                <span class="cert">Auditeur interne</span>
             </div>
         </div>
-        <div class="container" id="profExp">
+        <!-- Professionnal experience -->
+        <div class="expPro" id="profExp">
             <h4 class="profExpTitle">Expérience professionnelle</h4>
             <ul>
                 <li id="li1">
@@ -104,7 +104,8 @@
                 </li>
             </ul>
         </div>
-        <div class="container" id="training">
+        <!-- Training -->
+        <div class="train" id="training">
             <h4 class="trainTitle">Formation</h4>
                 <ul>
                     <li id="li7">
@@ -162,7 +163,7 @@
 
     <footer>
         <!-- Contact link -->
-        <div class="container">
+        <div class="cont">
             <span class="contact">Contactez-moi</span>
         </div>
     </footer>

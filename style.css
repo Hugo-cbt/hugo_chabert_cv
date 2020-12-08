@@ -1,5 +1,26 @@
+/* General */
+
+@font-face {
+    font-family:"Roboto";
+    src: url('./font/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family:"Roboto";
+    font-style: bold;
+    src: url('./font/Roboto-Regular.ttf');
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
 .container {
     border: 1px solid red;
+}
+
+.title {
+    border: grey;
 }
 
 span {
@@ -17,3 +38,26 @@ span {
 ul {
     list-style: none;
 }
+
+h4 {
+    border: 1px solid pink;
+}
+
+h5 {
+    border: 1px solid blue;
+}
+
+/* Header */
+
+#titPic {
+    align-items: center;
+    background-color: rgb(194, 220, 255);
+}
+
+#titles {
+    text-align: center;
+    margin-left: 20px;
+}
+
+/* Programmation */
+
