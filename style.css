@@ -15,10 +15,6 @@ body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-.container {
-    border: 1px solid red;
-}
-
 .title {
     border: grey;
 }
@@ -39,25 +35,97 @@ ul {
     list-style: none;
 }
 
-h4 {
-    border: 1px solid pink;
-}
-
-h5 {
-    border: 1px solid blue;
+a {
+    color: #0e76a8;
 }
 
 /* Header */
 
-#titPic {
-    align-items: center;
-    background-color: rgb(194, 220, 255);
+.logoLkin {
+    width: 50px !important;
+    height: 50px !important;
 }
 
-#titles {
-    text-align: center;
-    margin-left: 20px;
+.nav-link {
+    color: grey;
 }
 
-/* Programmation */
+.nav-link:hover {
+    color: #0e76a8;
+}
 
+.bi-list {
+    color: #0e76a8;
+}
+
+/* My search */
+
+.myImg {
+    width: 27em !important;
+    height: 35em !important;
+}
+
+.mySch {
+    margin: 20px 0;
+}
+
+.carousel-inner { 
+    margin: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 70px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: grey;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: grey;
+}
+
+.lang {
+    margin-top: 50px;
+}
+
+.langFram {
+    margin-top: 5px;
+}
+
+/* Pro-exp */
+
+.jumbotron {
+    background-color: rgb(243, 243, 243);
+}
+
+/* Training */
+
+.card {
+    margin-top: 30px !important;
+}
+
+/* Footer */
+
+.ctctme {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: grey;
+}
+
+.ctctme:hover {
+    cursor: pointer;
+    color: #0e76a8;
+}
+
+.bi-phone, .bi-envelope {
+    margin-right : 10px;
+    color: #0e76a8;
+}
